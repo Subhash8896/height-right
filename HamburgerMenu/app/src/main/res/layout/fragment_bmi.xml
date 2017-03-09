@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.suhas.hamburgermenu.GalleryFragment"
+    android:layout_margin="10dp">
+    <TextView
+        android:id="@+id/hgt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Height (in m) :"
+        android:textSize="30sp"
+        android:layout_marginTop="80dp"/>
+    <EditText
+        android:id="@+id/hcal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/hgt"
+        android:layout_marginTop="80dp"/>
+
+    <TextView
+        android:id="@+id/wgt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hgt"
+        android:text="Weight(in kg) :"
+        android:textSize="30sp"
+        android:layout_marginTop="30dp"/>
+    <EditText
+        android:id="@+id/wcal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/wgt"
+        android:layout_below="@id/hgt"
+        android:layout_marginTop="30dp"/>
+    <TextView
+        android:id="@+id/bmi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/wgt"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"/>
+    <Button
+        android:id="@+id/calc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:padding="8dp"
+        android:text="CALCULATE"
+        android:onClick="doCalc"
+        android:textColor="#fff"
+        android:textSize="28sp"
+        android:layout_below="@+id/bmi"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:padding="8dp"
+        android:text="ADD RECORD"
+        android:textColor="#fff"
+        android:textSize="28sp"
+        android:layout_marginBottom="48dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

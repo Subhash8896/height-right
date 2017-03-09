@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">HeightRight</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+        <string name="hello_world">Hello world!</string>
+        <string name="action_settings">Settings</string>
+        <string name="title">Users</string>
+        <string name="plus">"+"</string>
+        <string name="adduser">"Add User"</string>
+        <string name="user">"User"</string>
+        <string name="hint">"Enter User's Name"</string>
+        <string name="save">"Save"</string>
+        <string name="cancel">"Cancel"</string>
+        <string name="adduseractivitylabel">"Add User Activity"</string>
+    <string name="aboutus">
+
+        \n
+        Moved by the pathetic condition of Melghat, Dr. Ashish started the NGO MAHAN (acronym for M-Meditation, A-AIDS, H-Health, A-De-Addiction, N-Nutrition) in 1997. MAHAN Trust is the only NGO in the Melghat region providing medical care and Health Services to the tribal communities living in that area. MAHAN Trust\'s philosophy is to serve the last tribal of Melghat with complete dedication.
+        \n
+        \n Vision:
+        \n
+        \n To be the best health Institution in the tribal areas of India with an aim to uplift the health facet of tribal of Melghat and India.
+        \n
+        \n Mission:
+        \n
+        \n § Believes in core values of trust, transparency, care and compassion
+        \n § Principle of service, role model through research and monitoring of govt. health system.
+        \n § Strives to maintain healthy standards of social governance.
+    </string>
+    <string name="contact">\n Address :Dr. Ashish Satav(M.D.) Mahatma Gandhi Tribal Hospital, Karmagram, Utavali, Tah. : Dharni Dist : Amaravati State : Maharashtra . India - 444 702</string>
+    <string name="key">volunteerid | kidname | height | bmi | date</string>
+</resources>
+

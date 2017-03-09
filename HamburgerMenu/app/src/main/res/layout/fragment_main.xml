@@ -1,0 +1,273 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1A237E">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    >
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ffffff"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="30dp"/>
+
+
+    <ImageView
+        android:src="@drawable/knee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:padding="8dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="Knee Length"
+        android:textColor="#d6a019"
+        android:textSize="28dp"
+        android:paddingLeft="8dp"
+        android:paddingBottom="20dp"
+        />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="8dp"
+        android:paddingBottom="8dp"
+
+        >
+
+        <RadioButton
+            android:id="@+id/kneeyes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:textSize="24dp"
+            android:text="Available"
+            android:textColor="#ffffff"/>
+
+        <RadioButton
+            android:id="@+id/kneeno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Not available"
+            android:textSize="24dp"
+            android:textColor="#ffffff"
+            />
+
+
+    </RadioGroup>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/knee"
+        android:text="0"
+        android:textColor="#ffffff"
+        android:inputType="numberDecimal"
+        android:padding="8dp"
+        android:backgroundTint="#FF4081"
+        android:layout_margin="16dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ffffff"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"/>
+
+    <ImageView
+        android:src="@drawable/wing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:padding="8dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="Wingspan"
+        android:textColor="#d6a019"
+        android:textSize="28dp"
+        android:paddingLeft="8dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="16dp"
+        />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="8dp"
+        android:paddingBottom="8dp"
+
+        >
+
+        <RadioButton
+            android:id="@+id/wingyes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:textSize="24dp"
+            android:text="Available"
+            android:textColor="#ffffff"/>
+
+        <RadioButton
+            android:id="@+id/wingno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Not available"
+            android:textSize="24dp"
+            android:textColor="#ffffff"
+            />
+
+
+    </RadioGroup>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/wing"
+        android:inputType="numberDecimal"
+        android:text="0"
+        android:textColor="#ffffff"
+        android:backgroundTint="#FF4081"
+        android:padding="8dp"
+        android:layout_margin="16dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ffffff"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="Age"
+        android:textColor="#d6a019"
+        android:textSize="28dp"
+        android:paddingLeft="8dp"
+        android:paddingBottom="8dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/age"
+        android:text="0"
+        android:textColor="#ffffff"
+        android:inputType="numberDecimal"
+        android:backgroundTint="#FF4081"
+        android:padding="8dp"
+        android:layout_margin="16dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ffffff"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="Gender"
+        android:textColor="#d6a019"
+        android:textSize="28dp"
+        android:paddingLeft="8dp"
+        android:paddingBottom="16dp"
+        />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="8dp"
+        android:paddingBottom="8dp"
+
+        >
+
+        <RadioButton
+            android:id="@+id/radio_male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:textSize="24dp"
+            android:text="Male"
+            android:textColor="#ffffff"/>
+
+        <RadioButton
+            android:id="@+id/radio_female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female"
+            android:textSize="24dp"
+            android:textColor="#ffffff"
+            />
+
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ffffff"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate"
+        android:id="@+id/calculatebtn"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:padding="16dp"
+        android:background="#009ffc"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="Result"
+        android:textColor="#d6a019"
+        android:textSize="28dp"
+        android:paddingLeft="8dp"
+        android:paddingBottom="16dp"
+        />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:textSize="28dp"
+        android:textColor="#ffffff"
+        android:padding="8dp"
+        />
+
+
+</LinearLayout>
+</ScrollView>

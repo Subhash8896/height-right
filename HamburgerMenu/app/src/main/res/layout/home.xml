@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center_vertical">
+
+
+    <Button
+        android:id="@+id/homebutton1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:background="#3F51B5"
+        android:textColor="#ffffff"
+        android:text="Add Record" />
+
+    <Button
+        android:id="@+id/homebutton2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:background="#3F51B5"
+        android:textColor="#ffffff"
+        android:text="View Record" />
+
+</LinearLayout>
